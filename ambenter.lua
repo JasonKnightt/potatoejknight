@@ -30,3 +30,7 @@ function getVehicleInDirection(coordFrom, coordTo)
 	local a, b, c, d, vehicle = GetRaycastResult(rayHandle)
 	return vehicle
 end
+
+
+---- Created by Potatoe King Jason Knight ----
+-- If you steal me, and use me...atleast abuse me and give me credit, fucker. --
