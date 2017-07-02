@@ -63,7 +63,7 @@ end)
 Citizen.CreateThread(function()
 	while true do
 		Wait(0)
-	if IsControlPressed(1, 166) then -- Natively F6, but truly is whatever you have bound to "Switch to Micahel".
+	if IsControlPressed(1, 166) and IsEMS then -- Natively F6, but truly is whatever you have bound to "Switch to Micahel".
 		local getTarget = GetNearestPlayerToEntity(GetPlayerPed(-1))
 			if IsPedInjured(getTarget) = true then
 			SetEntityHealth(getTarget, 150) -- Not going to fill their health bar...think native is 200 max health? Could be wrong, I am potatoe.
