@@ -11,4 +11,3 @@ Dumping grounds for my potatoe ass scripts...
  - We're all potatoes.
   
 
--- If you steal me, and use me...atleast abuse me and give me credit, fucker. --
